@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: rgb(255, 253, 253);
+}
+
+.navbar-brand {
+    color: pink;
+}
+.nav-link{
+    color: rgb(196, 20, 93);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link hover{
+    color: rgb(236, 21, 190);
+    background-color: rgb(235, 13, 198) ;
+}
+.navbar-marca{
+    font-size: 1.25rem;
+    font-weight: 800;
+    color:rgb(241, 22, 168);
+    cursor: pointer;
+    text-decoration: none;
+}
+.main {
+    background: url(./palomaft.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 100px;
+
+}
+
+.main h3{
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-top: -5%;
+    
+    
+    
+
+}
+.main h6{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+    border-bottom: 3px solid rgb(233, 20, 109);
+    margin-left: 52px;
+    width: 35%;
+    
+    
+}
+
+.btn{
+    margin-left: 19px;
+    width: 90px;
+    margin-top: -50px;
+
+}
+
+.btn2 {
+    margin-left: 130px;
+    width: 90px;
+    margin-top: -93px;
+}
+
+.btn3 {
+    margin-left: 228px;
+    width: 90px;
+    margin-top: -86px;
+
+}
+
+.foto {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    position: relative;
+    margin-left: -57px;
+    margin-top: -140px;
+  }
+
+.foto img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.rodape {   
+    background-color: #020202;
+    border-radius: 5px;
+    color: pink;
+    text-align:center;
+    padding: 0px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
