@@ -105,3 +105,27 @@
     bottom: 0;
     width: 100%;
 }
+.card {
+    border:none;
+    outline: nine;
+}
+.card p {
+    color: gray;
+}
+.circle {
+    height: 70px;
+    width: 70px;
+    background-color: lightgray;
+    color: black;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 30px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.card:hover .circle {
+    background-color: rgb(199, 114, 161);
+    color: white;
+    transition: 0.5s;
+    
+}
