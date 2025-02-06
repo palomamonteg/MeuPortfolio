@@ -27,7 +27,7 @@
 
 ### Compatibilidade ⚒️
 
--Este projeto foi desenvolvido e testado utilizando o VS Code versão 17.
+- Este projeto foi desenvolvido e testado utilizando o VS Code versão 17.
 
 ### Licença ☕
 
