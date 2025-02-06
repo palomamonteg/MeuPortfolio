@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
     background-color: rgb(255, 253, 253);
 }
 
@@ -17,9 +21,9 @@
     cursor: pointer;
     text-decoration: none;
 }
-.nav-link hover{
-    color: rgb(236, 21, 190);
-    background-color: rgb(235, 13, 198) ;
+.nav-link:hover{
+    color: rgb(211, 125, 192);
+    background-color: rgb(212, 158, 203) ;
 }
 .navbar-marca{
     font-size: 1.25rem;
@@ -129,3 +133,73 @@
     transition: 0.5s;
     
 }
+
+.contact {
+    padding: 40px 15%;
+    background: rgb(206, 221, 219);
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    align-items: center;
+    grid-gap: 6rem;
+
+}
+.contact-img img {
+    max-width: 100%;
+    width: 320px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-left: 30%;
+
+} 
+.contact-form h1 {
+    font-size: 30px;
+    text-align: justify;
+    color: #0a0909;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+
+}
+.contact-form p {
+    text-align: justify;
+ 
+}
+.contact-form form {
+    position: relative;
+}
+.contact-form form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    outline: none;
+    background: #ada6a8;
+    color: #000000;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.contact-form .enviar {
+    display: inline-block;
+    background: #c57890;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    text-transform:uppercase;
+    font-weight: 600;
+    border: 2px solid transparent;
+    transition: ease .20s;
+    cursor: pointer;
+
+
+}
+.contact-form .enviar:hover {
+    border: 2px solid #c57890;;
+    background: #ca8ea1;
+    transform: escale(1.1);
+
+}
+
+
